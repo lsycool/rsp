@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\rsp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DSC04099.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\未标题-1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\DSC04100.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lsy_rs.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Lsy_cug.smf" />
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\rsp.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rspDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BandSythesis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhiFT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SuoYin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Contrast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ERZH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISODATA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeDetect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Begin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Kmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HCM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Similar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Morac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PHOTOGRAM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBXY.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInputDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomProgressDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memorydialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Arthmetic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdal-1.9.2\include\gdalwarper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ROI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelectComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearStepParamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLinerPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cDlgMorphErosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cDlgMorphClose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cDlgMorphDilation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cDlgMorphOpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitRecogDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DIBAPI.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thinner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSampleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rsp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rspDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BandSythesis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhiFT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuoYin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Contrast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ERZH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ISODATA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeDetect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GCP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Begin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Kmeans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HCM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Similar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Morac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PHOTOGRAM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBXY.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInputDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomProgressDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memorydialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arthmetic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Convolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ROI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelectComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearStepParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLinerPara.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cDlgMorphErosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cDlgMorphDilation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cDlgMorphOpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cDlgMorphClose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitRecogDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dibapi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thinner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IP.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CqOctree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSampleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

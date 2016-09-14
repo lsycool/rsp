@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96D4548F-09C9-4690-8A37-CB8817EA5689}</ProjectGuid>
+    <RootNamespace>rsp</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdal-1.9.2\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gdiplus.lib;gdal_i.lib;SkinMagicTrial.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\gdal-1.9.2\lib</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdal-1.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\gdal-1.9.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gdal_i.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Debug\DSC04100.ico" />
+    <None Include="Lsy_cug.smf" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\DSC04099.bmp" />
+    <None Include="res\Lsy_rs.ico" />
+    <None Include="res\rsp.ico" />
+    <None Include="res\rsp.rc2" />
+    <None Include="res\未标题-1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddSampleDlg.h" />
+    <ClInclude Include="Arthmetic.h" />
+    <ClInclude Include="BandSythesis.h" />
+    <ClInclude Include="Begin.h" />
+    <ClInclude Include="BP.h" />
+    <ClInclude Include="cDlgMorphClose.h" />
+    <ClInclude Include="cDlgMorphDilation.h" />
+    <ClInclude Include="cDlgMorphErosion.h" />
+    <ClInclude Include="cDlgMorphOpen.h" />
+    <ClInclude Include="ChangeDetect.h" />
+    <ClInclude Include="ColorSelectComboBox.h" />
+    <ClInclude Include="Contrast.h" />
+    <ClInclude Include="Convolution.h" />
+    <ClInclude Include="CustomInputDialog.h" />
+    <ClInclude Include="CustomProgressDialog.h" />
+    <ClInclude Include="D:\gdal-1.9.2\include\gdalwarper.h" />
+    <ClInclude Include="Dib.h" />
+    <ClInclude Include="DIBAPI.H" />
+    <ClInclude Include="DigitClass.h" />
+    <ClInclude Include="DigitRecogDlg.h" />
+    <ClInclude Include="DlgLinerPara.h" />
+    <ClInclude Include="ERZH.h" />
+    <ClInclude Include="FileList.h" />
+    <ClInclude Include="GCP.h" />
+    <ClInclude Include="HCM.h" />
+    <ClInclude Include="ImageMatch.h" />
+    <ClInclude Include="ImageShow.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="ISODATA.h" />
+    <ClInclude Include="kernel.h" />
+    <ClInclude Include="Kmeans.h" />
+    <ClInclude Include="LinearStepParamDlg.h" />
+    <ClInclude Include="ListCtrlEx.h" />
+    <ClInclude Include="memorydialog.h" />
+    <ClInclude Include="MinMax.h" />
+    <ClInclude Include="Morac.h" />
+    <ClInclude Include="PHOTOGRAM.h" />
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RGBXY.h" />
+    <ClInclude Include="ROI.h" />
+    <ClInclude Include="rsp.h" />
+    <ClInclude Include="rspDlg.h" />
+    <ClInclude Include="Similar.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SuoYin.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TerrainAnalysis.h" />
+    <ClInclude Include="Thinner.h" />
+    <ClInclude Include="ZhiFT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddSampleDlg.cpp" />
+    <ClCompile Include="Arthmetic.cpp" />
+    <ClCompile Include="BandSythesis.cpp" />
+    <ClCompile Include="Begin.cpp" />
+    <ClCompile Include="BP.cpp" />
+    <ClCompile Include="cDlgMorphClose.cpp" />
+    <ClCompile Include="cDlgMorphDilation.cpp" />
+    <ClCompile Include="cDlgMorphErosion.cpp" />
+    <ClCompile Include="cDlgMorphOpen.cpp" />
+    <ClCompile Include="ChangeDetect.cpp" />
+    <ClCompile Include="ColorSelectComboBox.cpp" />
+    <ClCompile Include="Contrast.cpp" />
+    <ClCompile Include="Convolution.cpp" />
+    <ClCompile Include="CqOctree.cpp" />
+    <ClCompile Include="CustomInputDialog.cpp" />
+    <ClCompile Include="CustomProgressDialog.cpp" />
+    <ClCompile Include="Dib.cpp" />
+    <ClCompile Include="Dibapi.cpp" />
+    <ClCompile Include="DigitClass.cpp" />
+    <ClCompile Include="DigitRecogDlg.cpp" />
+    <ClCompile Include="DlgLinerPara.cpp" />
+    <ClCompile Include="ERZH.cpp" />
+    <ClCompile Include="FileList.cpp" />
+    <ClCompile Include="GCP.cpp" />
+    <ClCompile Include="HCM.cpp" />
+    <ClCompile Include="ImageMatch.cpp" />
+    <ClCompile Include="ImageShow.cpp" />
+    <ClCompile Include="IP.CPP" />
+    <ClCompile Include="ISODATA.cpp" />
+    <ClCompile Include="Kmeans.cpp" />
+    <ClCompile Include="LinearStepParamDlg.cpp" />
+    <ClCompile Include="ListCtrlEx.cpp" />
+    <ClCompile Include="memorydialog.cpp" />
+    <ClCompile Include="MinMax.cpp" />
+    <ClCompile Include="Morac.cpp" />
+    <ClCompile Include="PHOTOGRAM.cpp" />
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="RGBXY.cpp" />
+    <ClCompile Include="ROI.cpp" />
+    <ClCompile Include="rsp.cpp" />
+    <ClCompile Include="rspDlg.cpp" />
+    <ClCompile Include="Similar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SuoYin.cpp" />
+    <ClCompile Include="TerrainAnalysis.cpp" />
+    <ClCompile Include="Thinner.cpp" />
+    <ClCompile Include="ZhiFT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsp.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="rsp.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
